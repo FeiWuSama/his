@@ -42,7 +42,7 @@ import java.util.Set;
 public class UsersServiceImpl extends ServiceImpl<UsersMapper, Users> implements IUsersService {
 
     @Autowired
-    UsersMapper usersMapper;
+    private UsersMapper usersMapper;
 
     @Autowired
     CampusMapper campusMapper;
